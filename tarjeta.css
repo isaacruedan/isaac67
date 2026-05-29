@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02ffea;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+}
+
+.card{
+    background-color: aqua;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow:0 8px 16px    rgba(0, 0,0 , 0.2) ;
+    text-align: center;
+}
+
+h1{
+font-size: 1.8rem;
+color: aqua;
+margin-bottom: 10px;
+}
+
+p{
+font-size: 1.1rem;
+color: #02ffea;
+margin-bottom: 20px;
+}
+
+img{
+width: 105px;
+height: 105px;
+border-radius: 50%;
+margin-bottom: 20px;
+box-shadow: #02ffea;
+}
+
+ol{
+list-style-type: none;
+padding: 0;
+margin:0 ;
+}
+
+ol li{
+    background-color: rgb(245, 3, 3);
+    padding: 10px;
+    margin:10px 0 ;
+    border-radius: 10px;
+    color: aquamarine;
+    font-size: 1rem;
+    transition:  background-color  0.3 ease;
+}
+
+ol li:hover{
+background-color: blue;
+color: cadetblue;
+}
